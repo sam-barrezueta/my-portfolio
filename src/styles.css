@@ -1,3 +1,35 @@
-body {
-  background-color: red;
+:root {
+  --title-font: "Cormorant Garamond", serif;
+  --secondary-font: "Alegreya", serif;
+  --neutral-font: "Montserrat", sans-serif;
+}
+
+.hero {
+  text-align: center;
+  padding-top: 150px;
+  background: rgb(190, 71, 242, 0.1);
+  height: 550px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: var(--title-font);
+  font-size: 96px;
+  font-weight: bold;
+  color: #7579e7;
+  margin-bottom: 0px;
+}
+
+h2 {
+  font-family: var(--secondary-font);
+  color: #9ab3f5;
+  margin-bottom: 50px;
+}
+
+.primary-button {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #7579e7;
+  border-radius: 5px;
+  padding: 10px 15px;
 }
