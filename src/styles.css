@@ -49,30 +49,30 @@ h2 {
 }
 
 @media (max-width: 576px) {
-    .hero-image {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url(/images/hero-image-mobile.jpg);
-        height: 385px;
-        background-size:500px;
-        background-position: top;
-}
+  .hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(/images/hero-image.jpg);
+    height: 385px;
+    background-size: 500px;
+    background-position: top;
+  }
 
-    .hero-text {
-        padding-top: 80px;
-    }
+  .hero-text {
+    padding-top: 80px;
+  }
 
-    h1 {
-        font-size: 62px;
-        line-height: 0.9;
-        margin-bottom: 15px;
-    }
+  h1 {
+    font-size: 62px;
+    line-height: 0.9;
+    margin-bottom: 15px;
+  }
 
-    h2 {
-        margin-bottom: 60px;
-        font-size: 18px;
-    }
+  h2 {
+    margin-bottom: 60px;
+    font-size: 18px;
+  }
 
-    .primary-button {
-        font-size: 14px;
-    }
+  .primary-button {
+    font-size: 14px;
+  }
 }
