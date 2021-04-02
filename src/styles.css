@@ -4,9 +4,7 @@
   --neutral-font: "Montserrat", sans-serif;
 }
 
-body {
-  background: rgb(255, 223, 211, 0.1);
-}
+
 
 h2 {
     font-family: var(--secondary-font);
