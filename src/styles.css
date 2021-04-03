@@ -4,23 +4,21 @@
   --neutral-font: "Montserrat", sans-serif;
 }
 
-
-
 h2 {
-    font-family: var(--secondary-font);
-    font-size: 60px;
-    text-align: center;
-    margin-bottom: 50px;
-    color: #957dad;
+  font-family: var(--secondary-font);
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 50px;
+  color: #957dad;
 }
 
 h3 {
-    font-family: var(--neutral-font);
-    font-weight: bold;
+  font-family: var(--neutral-font);
+  font-weight: bold;
 }
 
 p {
-    font-family: var(--neutral-font);
+  font-family: var(--neutral-font);
 }
 
 .hero-image {
@@ -66,12 +64,11 @@ p {
 }
 
 .homepage-about {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .homepage-about .profile-pic {
-    max-width: 300px;
-
+  max-width: 300px;
 }
 
 
