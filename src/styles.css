@@ -111,6 +111,11 @@ footer i {
 
 .homepage-about .profile-pic {
   max-width: 300px;
+  border-radius: 500px;
+}
+
+.card p {
+    text-align: center;
 }
 
 
