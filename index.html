@@ -19,7 +19,7 @@
 </head>
 <body>
 
-
+<div class="container-fluid p-0">
     <!-- HOMEPAGE HERO -->
     <div class="container-fluid hero-image">
     <div class="hero-text">
@@ -32,7 +32,7 @@
 
     <!-- HOMEPAGE ABOUT ME -->
     <div class=" container homepage-about mb-5">
-                <h2>About me</h2>        
+                <h2 class="mb-4">About me</h2>        
         <div class="row">
             <div class="col-sm align-self-center mb-5">
                 <img src="/images/sam.png" alt="sam-barrezueta-image" class="img-fluid rounded shadow-lg mx-auto d-flex profile-pic">
@@ -41,7 +41,7 @@
                 <h3>Hola, I'm Sam. Welcome.</h3>
                 <br>
 
-                <p>I'm an Ecuadorian, UK-based web developer in training... among many other things. 
+                <p class="text-start">I'm an Ecuadorian, UK-based web developer in training... among many other things. 
                 </p>
               
             </div>
@@ -52,8 +52,9 @@
 
     </div>
     <!-- HOMEPAGE MY PROJECTS -->
-    <div class="homepage-projects">
-        <h2>My projects</h2>
+    <div class="homepage-projects mb-5">
+        <h2 class="mb-4">My projects</h2>
+        <p>Check out my projects. There's not much here yet, but this section will continue to grow as I continue my coding journey.</p>
         
         <!-- Carousel -->
         <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
@@ -64,11 +65,10 @@
                 <!-- First Slide -->
                 <div class="carousel-item active" data-bs-interval="10000">
                     <div class="container d-flex justify-content-center">
-                        <div class="card border-light" style="width: 28rem;">
+                        <div class="card border-light border-5 shadow mb-5" style="width: 28rem;">
                             <img src="/images/snorkelling.png" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                                    content.</p>
+                                <p class="card-text">Snorkelling page. My very first HTML and CSS project.</p>
                             </div>
                         </div>
                     </div>
@@ -76,13 +76,12 @@
                 </div>
 
                 <!-- Second Slide -->
-                <div class="carousel-item" data-bs-interval="2000">
+                <div class="carousel-item" data-bs-interval="10000">
                     <div class="container d-flex justify-content-center">
-                        <div class="card border-light" style="width: 28rem;">
+                        <div class="card border-light border-5 shadow mb-5" style="width: 28rem;">
                             <img src="/images/weather.png" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                                    content.</p>
+                                <p class="card-text">Weather App. Initially a vanilla JS app, later upgraded with React.</p>
                             </div>
                         </div>
                     </div>
@@ -90,13 +89,12 @@
                 </div>
 
                 <!-- Third Slide -->
-                <div class="carousel-item">
+                <div class="carousel-item" data-bs-interval="10000">
                     <div class="container d-flex justify-content-center">
-                        <div class="card border-light" style="width: 28rem;">
+                        <div class="card border-light border-5 shadow mb-5" style="width: 28rem;">
                             <img src="/images/coming-soon.png" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                                    content.</p>
+                                <p class="card-text">Stay tuned for a cool new app...</p>
                             </div>
                         </div>
                     </div>
@@ -117,10 +115,19 @@
     </div>
     <!-- END OF HOMEPAGE MY PROJECTS -->
 
-<!-- FOOTER -->
-<footer>
-    
-</footer>
+    <!-- FOOTER -->
+    <footer>
+        <i class="fab fa-linkedin"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="far fa-envelope"></i>
+    </footer>
+
+
+
+
+
+
+</div>
 
 
 
