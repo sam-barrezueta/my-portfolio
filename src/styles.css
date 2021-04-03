@@ -6,6 +6,12 @@
   --neutral-color: rgba(43, 28, 58, 0.7);
 }
 
+.bg-nb {
+    background:rgb(222, 236, 255, 0.65);
+}
+
+
+
 h2 {
   font-family: var(--secondary-font);
   font-size: 60px;
@@ -16,30 +22,30 @@ h2 {
 h4 {
   font-family: var(--neutral-font);
   font-weight: bold;
-  color: var(--neutral-color)
+  color: var(--neutral-color);
 }
 
 p {
   font-family: var(--neutral-font);
-  color: var(--neutral-color)
+  color: var(--neutral-color);
 }
 
 hr {
-    border: none;
-    border-top: dotted rgb(149, 125, 173, 0.75) 8px;
-    background: none;
-    width: 10%;
-    margin: 70px auto;
+  border: none;
+  border-top: dotted rgb(149, 125, 173, 0.75) 8px;
+  background: none;
+  width: 10%;
+  margin: 70px auto;
 }
 
 footer {
-    height: 100px;
-    background: rgb(222, 236, 255, 0.5);
+  height: 100px;
+  background: rgb(222, 236, 255, 0.5);
 }
 
 footer i {
-    color: var(--theme-color);
-    font-size: 1.5rem;
+  color: var(--theme-color);
+  font-size: 1.5rem;
 }
 
 .hero-image {
@@ -85,9 +91,9 @@ footer i {
 }
 
 .primary-button:hover {
-    color: white;
-    background: rgb(149, 125, 173, 0.25);
-    border: solid 1px var(--theme-color);
+  color: white;
+  background: rgb(149, 125, 173, 0.25);
+  border: solid 1px var(--theme-color);
 }
 
 .secondary-button {
@@ -101,8 +107,8 @@ footer i {
 }
 
 .secondary-button:hover {
-    color: #ffffff;
-    background: var(--theme-color);
+  color: #ffffff;
+  background: var(--theme-color);
 }
 
 .homepage-about {
@@ -115,9 +121,8 @@ footer i {
 }
 
 .card p {
-    text-align: center;
+  text-align: center;
 }
-
 
 @media (max-width: 576px) {
   .hero-image {
@@ -148,14 +153,14 @@ footer i {
   }
 
   .homepage-about {
-      text-align: center !important;
+    text-align: center !important;
   }
   .homepage-about .profile-pic {
-  max-width: 200px;
-}
+    max-width: 200px;
+  }
 
-.homepage-projects h2, .homepage-about h2 {
+  .homepage-projects h2,
+  .homepage-about h2 {
     font-size: 50px;
-}
-
+  }
 }
