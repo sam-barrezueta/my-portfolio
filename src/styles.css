@@ -2,22 +2,26 @@
   --title-font: "Cormorant Garamond", serif;
   --secondary-font: "Alegreya", serif;
   --neutral-font: "Montserrat", sans-serif;
+  --theme-color: #957dad;
+  --neutral-color: rgba(43, 28, 58, 0.7);
 }
 
 h2 {
   font-family: var(--secondary-font);
   font-size: 60px;
   text-align: center;
-  color: #957dad;
+  color: var(--theme-color);
 }
 
 h4 {
   font-family: var(--neutral-font);
   font-weight: bold;
+  color: var(--neutral-color)
 }
 
 p {
   font-family: var(--neutral-font);
+  color: var(--neutral-color)
 }
 
 hr {
@@ -34,7 +38,7 @@ footer {
 }
 
 footer i {
-    color: #957dad;
+    color: var(--theme-color);
     font-size: 1.5rem;
 }
 
@@ -74,7 +78,7 @@ footer i {
 .primary-button {
   text-decoration: none;
   color: #ffffff;
-  background: #957dad;
+  background: var(--theme-color);
   border-radius: 5px;
   padding: 15px 25px;
   font-family: var(--neutral-font);
@@ -83,14 +87,14 @@ footer i {
 .primary-button:hover {
     color: white;
     background: rgb(149, 125, 173, 0.25);
-    border: solid 1px #957dad;
+    border: solid 1px var(--theme-color);
 }
 
 .secondary-button {
   text-decoration: none;
-  color: #957dad;
+  color: var(--theme-color);
   background: rgb(149, 125, 173, 0.1);
-  border: solid 1px #957dad;
+  border: solid 1px var(--theme-color);
   border-radius: 5px;
   padding: 15px 25px;
   font-family: var(--neutral-font);
@@ -98,7 +102,7 @@ footer i {
 
 .secondary-button:hover {
     color: #ffffff;
-    background: #957dad;
+    background: var(--theme-color);
 }
 
 .homepage-about {
