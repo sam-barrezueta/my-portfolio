@@ -11,19 +11,31 @@ h2 {
   color: #957dad;
 }
 
-h3 {
+h4 {
   font-family: var(--neutral-font);
   font-weight: bold;
 }
 
 p {
   font-family: var(--neutral-font);
-  text-align: center;
+}
+
+hr {
+    border: none;
+    border-top: dotted rgb(149, 125, 173, 0.75) 8px;
+    background: none;
+    width: 10%;
+    margin: 70px auto;
 }
 
 footer {
     height: 100px;
     background: rgb(222, 236, 255, 0.5);
+}
+
+footer i {
+    color: #957dad;
+    font-size: 1.5rem;
 }
 
 .hero-image {
@@ -62,10 +74,31 @@ footer {
 .primary-button {
   text-decoration: none;
   color: #ffffff;
-  background-color: #957dad;
+  background: #957dad;
   border-radius: 5px;
   padding: 15px 25px;
   font-family: var(--neutral-font);
+}
+
+.primary-button:hover {
+    color: white;
+    background: rgb(149, 125, 173, 0.25);
+    border: solid 1px #957dad;
+}
+
+.secondary-button {
+  text-decoration: none;
+  color: #957dad;
+  background: rgb(149, 125, 173, 0.1);
+  border: solid 1px #957dad;
+  border-radius: 5px;
+  padding: 15px 25px;
+  font-family: var(--neutral-font);
+}
+
+.secondary-button:hover {
+    color: #ffffff;
+    background: #957dad;
 }
 
 .homepage-about {
@@ -104,4 +137,16 @@ footer {
   .primary-button {
     font-size: 12px;
   }
+
+  .homepage-about {
+      text-align: center !important;
+  }
+  .homepage-about .profile-pic {
+  max-width: 200px;
+}
+
+.homepage-projects h2, .homepage-about h2 {
+    font-size: 50px;
+}
+
 }
