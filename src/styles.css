@@ -6,10 +6,13 @@
   --neutral-color: rgba(43, 28, 58, 0.7);
 }
 
+.navbar-logo {
+    width: 74px;
+}
+
 .bg-nb {
     background:rgb(222, 236, 255, 0.65);
 }
-
 
 
 h2 {
@@ -125,6 +128,10 @@ footer i {
 }
 
 @media (max-width: 576px) {
+    
+    .navbar-logo {
+    width: 54px;
+}
   .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url(/images/hero-image.jpg);
