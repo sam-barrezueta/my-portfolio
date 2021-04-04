@@ -156,6 +156,11 @@ padding-top: 100px;
 }
 
 
+.bio .profile-pic {
+    max-height: 500px;
+    border-radius: 10px;
+}
+
 
 
 
