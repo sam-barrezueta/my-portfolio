@@ -49,7 +49,6 @@ hr {
 
 footer {
   height: 115px;
-  margin: 0 auto;
   margin-top: 100px;
   background: rgb(222, 236, 255, 0.5);
 }
@@ -147,8 +146,6 @@ footer p {
   height: 300px;
   margin: 0 auto;
   color: var(--theme-color);
-  /* background:  rgb(222, 236, 255, 0.5);;
-  background-attachment: fixed; */
 }
 
 .content-headers h1{
@@ -165,6 +162,9 @@ padding-top: 100px;
     border-radius: 10px;
 }
 
+.skills-box {
+    height: 70px;
+}
 
 .skills-icons {
     height: 50px;
@@ -220,6 +220,10 @@ padding-top: 100px;
   .homepage-about h2 {
     font-size: 50px;
   }
+
+  .skills-icons {
+    height: 40px;
+}
 
   footer i {
   font-size: 1rem;
