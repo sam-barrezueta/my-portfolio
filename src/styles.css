@@ -190,6 +190,11 @@ padding-top: 100px;
     transform: scale(1.1);
 }
 
+.contact-logo {
+    max-width: 300px;
+    filter: drop-shadow(5px 5px 10px rgb(0, 0, 0, 0.4));
+}
+
 
 /* MEDIA QUERIES */
 
