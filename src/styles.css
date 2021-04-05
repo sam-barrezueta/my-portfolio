@@ -34,11 +34,19 @@ h4 {
   color: var(--neutral-color);
 }
 
+h5 {
+    font-family: var(--secondary-font);
+    font-weight: bold;
+    color: var(--neutral-color);
+    text-align: center;
+}
+
 p {
   font-family: var(--neutral-font);
   color: var(--neutral-color);
   font-size: 14px;
   line-height: 1.6;
+  text-align: center;
 }
 
 hr {
@@ -138,15 +146,12 @@ footer p {
   border-radius: 500px;
 }
 
-.card p {
-  text-align: center;
-}
-
 .content-headers {
   text-align: center;
   height: 280px;
   margin: 0 auto;
   color: var(--theme-color);
+
 }
 
 .content-headers h1{
@@ -160,20 +165,16 @@ padding-top: 100px;
 
 .bio .profile-pic {
     max-width: 500px;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
-.skills-section p {
-    text-align: center;
-
-}
 
 .skills-box {
     height: 70px;
 }
 
 .icon-wrappers {
-    width: 70px;
+    width: 75px;
 }
 
 .skills-icons {
@@ -183,6 +184,10 @@ padding-top: 100px;
 
 .skills-icons:hover {
     height:80px;
+}
+
+.card-wrapper:hover {
+    transform: scale(1.1);
 }
 
 
