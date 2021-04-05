@@ -65,7 +65,7 @@ footer {
 
 footer i {
   color: var(--theme-color);
-  font-size: 1.5rem;
+  font-size: 16px;
   background: white;
   padding: 10px;
   border-radius: 100%;
@@ -114,12 +114,17 @@ footer p {
   border-radius: 5px;
   padding: 15px 25px;
   font-family: var(--neutral-font);
+  border: none;
 }
 
 .primary-button:hover {
   color: white;
   background: rgb(149, 125, 173, 0.25);
   border: solid 1px var(--theme-color);
+}
+
+form .primary-button:hover {
+    color: var(--theme-color);
 }
 
 .secondary-button {
@@ -151,7 +156,6 @@ footer p {
   height: 280px;
   margin: 0 auto;
   color: var(--theme-color);
-
 }
 
 .content-headers h1{
@@ -162,12 +166,10 @@ padding-top: 100px;
     margin: 0 auto;
 }
 
-
 .bio .profile-pic {
     max-width: 500px;
     border-radius: 5px;
 }
-
 
 .skills-box {
     height: 70px;
@@ -191,8 +193,21 @@ padding-top: 100px;
 }
 
 .contact-logo {
-    max-width: 300px;
+    max-width: 400px;
     filter: drop-shadow(5px 5px 10px rgb(0, 0, 0, 0.4));
+}
+
+.contact-me-icons i {
+  color: var(--theme-color);
+  font-size: 1.8rem;
+  padding: 10px;
+  border-radius: 20%;
+  margin: 10px 15px;
+}
+
+
+.contact-me-icons i:hover {
+    color: #C25DEF;
 }
 
 
@@ -259,7 +274,7 @@ padding-top: 100px;
 }
 
   footer i {
-  font-size: 1rem;
+  font-size: 14px;
   padding: 8px;
   margin: 8px 10px;
 }
@@ -268,6 +283,10 @@ padding-top: 100px;
 @media (max-width: 992px) {
     .bio p {
         text-align: center;
+    }
+
+    .contact-title {
+        font-size: 110px;
     }
 
 }
