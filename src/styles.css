@@ -16,7 +16,7 @@
 
 h1 {
   font-family: var(--title-font);
-  font-size: 130px;
+  font-size: 128px;
   font-weight: bold;
   margin-bottom: 0px;
 }
@@ -37,6 +37,8 @@ h4 {
 p {
   font-family: var(--neutral-font);
   color: var(--neutral-color);
+  font-size: 14px;
+  line-height: 1.6;
 }
 
 hr {
@@ -89,11 +91,10 @@ footer p {
   padding-top: 250px;
   margin: 0 auto;
   color: white;
-  background-attachment: fixed;
 }
 
 .hero-text h2 {
-  margin-bottom: 150px;
+  margin-bottom: 100px;
   font-size: 28px;
   color: white;
 }
@@ -158,8 +159,13 @@ padding-top: 100px;
 
 
 .bio .profile-pic {
-    max-height: 500px;
+    max-width: 500px;
     border-radius: 10px;
+}
+
+.skills-section p {
+    text-align: center;
+
 }
 
 .skills-box {
@@ -176,14 +182,14 @@ padding-top: 100px;
 }
 
 
+/* MEDIA QUERIES */
+
 @media (max-width: 576px) {
     
     .navbar-logo {
     width: 54px;
 }
   .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url(/images/hero-image2.jpg);
     height: 290px;
     background-size: 100%;
     background-position: top;
@@ -221,6 +227,20 @@ padding-top: 100px;
     font-size: 50px;
   }
 
+  .content-headers {
+      height: 200px;
+  }
+
+
+  .content-headers h1 {
+      font-size: 86px;
+  }
+
+    
+  .bio .profile-pic {
+      width: 350px;
+    }  
+
   .skills-icons {
     height: 40px;
 }
@@ -230,4 +250,11 @@ padding-top: 100px;
   padding: 8px;
   margin: 8px 10px;
 }
+}
+
+@media (max-width: 992px) {
+    .bio p {
+        text-align: center;
+    }
+
 }
